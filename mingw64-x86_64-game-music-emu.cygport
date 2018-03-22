@@ -2,14 +2,14 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross cmake
 
 NAME="mingw64-x86_64-game-music-emu"
-VERSION=0.6.1
+VERSION=0.6.2
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Video game music file emulator library for Win64 toolchain"
 DESCRIPTION="Game_Music_Emu is a collection of video game music file
 emulators that support several formats and systems."
 HOMEPAGE="https://bitbucket.org/mpyne/game-music-emu/"
-SRC_URI="https://bitbucket.org/mpyne/game-music-emu/downloads/game-music-emu-${VERSION}.tar.bz2"
+SRC_URI="https://bitbucket.org/mpyne/game-music-emu/downloads/game-music-emu-${VERSION}.tar.xz"
 SRC_DIR="game-music-emu-${VERSION}"
 
 DOCS="*.txt"
